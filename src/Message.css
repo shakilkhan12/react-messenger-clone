@@ -27,7 +27,9 @@ transform: scale(1);
     background: #e9e9eb!important;
   }
   .message__user {
-    color: #0b81ff!important
+    color: #0b81ff!important;
+    text-align: left!important;
+    
   }
 
   .cc {
