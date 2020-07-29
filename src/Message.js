@@ -13,7 +13,6 @@ const Message = ({ username, message }) => {
                     {!isUser && `${message.username || 'Unknow User'}`}
                 </Typography>
                 <Typography color="white" component="h1">
-
                     {message.message}
                 </Typography>
                 {/* <Typography color="textSecondary">
