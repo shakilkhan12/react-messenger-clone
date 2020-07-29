@@ -1,0 +1,36 @@
+.message {
+    padding: 5px;
+    margin: 10px;
+    width: fit-content;
+    animation: an .5s linear;
+    transition:all .5s linear;
+    border-radius: 4px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+@keyframes an {
+  from {
+   opacity: 0;
+   transform: scale(0);
+  } to {
+opacity: 1;
+transform: scale(1);
+  }
+}
+.message__userCard {
+  background: linear-gradient(to right, #00a8ff, #0097e6)!important;
+  color: #fff!important;
+  margin-left: auto;
+}
+.message__guestCard {
+    background: #e9e9eb!important;
+  }
+  .message__user {
+    color: #0b81ff!important
+  }
+
+  .cc {
+    /* background:red!important; */
+    padding: 2px 8px 4px 8px!important;
+  }
